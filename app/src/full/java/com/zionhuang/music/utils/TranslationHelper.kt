@@ -9,8 +9,8 @@ import com.google.mlkit.nl.translate.TranslateLanguage
 import com.google.mlkit.nl.translate.TranslateRemoteModel
 import com.google.mlkit.nl.translate.Translation
 import com.google.mlkit.nl.translate.TranslatorOptions
-import com.zionhuang.music.db.entities.LyricsEntity
-import com.zionhuang.music.lyrics.LyricsUtils
+import com.cobu.music.db.entities.LyricsEntity
+import com.cobu.music.lyrics.LyricsUtils
 import kotlinx.coroutines.tasks.await
 import java.util.Locale
 
