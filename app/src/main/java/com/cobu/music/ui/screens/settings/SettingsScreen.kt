@@ -68,11 +68,7 @@ fun SettingsScreen(
             icon = { Icon(painterResource(R.drawable.security), null) },
             onClick = { navController.navigate("settings/privacy") }
         )
-        PreferenceEntry(
-            title = { Text(stringResource(R.string.discord_integration)) },
-            icon = { Icon(painterResource(R.drawable.discord), null) },
-            onClick = { navController.navigate("settings/discord") }
-        )
+
         PreferenceEntry(
             title = { Text(stringResource(R.string.backup_restore)) },
             icon = { Icon(painterResource(R.drawable.restore), null) },
@@ -99,7 +95,7 @@ fun SettingsScreen(
                     }
                 },
                 onClick = {
-                    uriHandler.openUri("https://github.com/z-huang/InnerTune/releases/latest")
+                    uriHandler.openUri("https://github.com/who-icyy")
                 }
             )
         }
