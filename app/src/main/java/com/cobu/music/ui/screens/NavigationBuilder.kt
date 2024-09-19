@@ -26,8 +26,6 @@ import com.cobu.music.ui.screens.settings.AboutScreen
 import com.cobu.music.ui.screens.settings.AppearanceSettings
 import com.cobu.music.ui.screens.settings.BackupAndRestore
 import com.cobu.music.ui.screens.settings.ContentSettings
-import com.cobu.music.ui.screens.settings.DiscordLoginScreen
-import com.cobu.music.ui.screens.settings.DiscordSettings
 import com.cobu.music.ui.screens.settings.PlayerSettings
 import com.cobu.music.ui.screens.settings.PrivacySettings
 import com.cobu.music.ui.screens.settings.SettingsScreen
@@ -208,12 +206,7 @@ fun NavGraphBuilder.navigationBuilder(
     composable("settings/backup_restore") {
         BackupAndRestore(navController, scrollBehavior)
     }
-    composable("settings/discord") {
-        DiscordSettings(navController, scrollBehavior)
-    }
-    composable("settings/discord/login") {
-        DiscordLoginScreen(navController)
-    }
+
     composable("settings/about") {
         AboutScreen(navController, scrollBehavior)
     }
