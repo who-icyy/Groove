@@ -75,7 +75,7 @@ fun AboutScreen(
             verticalAlignment = Alignment.Top,
         ) {
             Text(
-                text = "InnerGroove",
+                text = "Groovy",
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
@@ -120,7 +120,7 @@ fun AboutScreen(
 
         Row {
             IconButton(
-                onClick = { uriHandler.openUri("https://github.com/who-icyy/InnerTune") }
+                onClick = { uriHandler.openUri("https://github.com/who-icyy/InnerGroove") }
             ) {
                 Icon(
                     painter = painterResource(R.drawable.github),
