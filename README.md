@@ -15,8 +15,8 @@
 ## Screenshots
 
 <p align="center">
-  <img src="https://via.placeholder.com/300x200" alt="Screenshot 1" width="20%" />
-  <img src="https://via.placeholder.com/300x200" alt="Screenshot 2" width="20%" />
-  <img src="https://via.placeholder.com/300x200" alt="Screenshot 3" width="20%" />
-  <img src="https://via.placeholder.com/300x200" alt="Screenshot 4" width="20%" />
+  <img src="https://github.com/who-icyy/Groove/blob/main/images/S1.png" alt="Screenshot 1" width="20%" />
+  <img src="https://github.com/who-icyy/Groove/blob/main/images/S2.png" alt="Screenshot 2" width="20%" />
+  <img src="https://github.com/who-icyy/Groove/blob/main/images/S3.png" alt="Screenshot 3" width="20%" />
+  <img src="https://github.com/who-icyy/Groove/blob/main/images/S4.png" alt="Screenshot 4" width="20%" />
 </p>
