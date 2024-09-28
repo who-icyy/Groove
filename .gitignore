@@ -3,7 +3,7 @@
 *.aar
 *.ap_
 *.aab
-key.jks
+./key.jks
 
 # Files for the ART/Dalvik VM
 *.dex
